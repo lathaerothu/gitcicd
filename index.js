@@ -4,7 +4,7 @@ const app=express();
 var port=process.env.PORT || 3000
 
 app.get('/',(req,res)=>{
-    res.send ("Welcome latha..!!")
+    res.send ("HELLO WORLD..!!")
 })
 app.listen(port,()=>{
     console.log("server running")
